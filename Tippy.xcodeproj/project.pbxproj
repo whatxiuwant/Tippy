@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		673B65061C35F4C200432038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673B65041C35F4C200432038 /* Main.storyboard */; };
+		67B7CF1F1C35FA4C0065BC87 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B7CF1E1C35FA4C0065BC87 /* SettingsViewController.swift */; };
 		67BEC08B1C35E53300ECC0A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEC08A1C35E53300ECC0A7 /* AppDelegate.swift */; };
 		67BEC08D1C35E53300ECC0A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BEC08C1C35E53300ECC0A7 /* ViewController.swift */; };
 		67BEC0921C35E53300ECC0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BEC0911C35E53300ECC0A7 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		673B65051C35F4C200432038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67B7CF1E1C35FA4C0065BC87 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		67BEC0871C35E53300ECC0A7 /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BEC08A1C35E53300ECC0A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67BEC08C1C35E53300ECC0A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				67BEC08C1C35E53300ECC0A7 /* ViewController.swift */,
 				67BEC0911C35E53300ECC0A7 /* Assets.xcassets */,
 				673B65041C35F4C200432038 /* Main.storyboard */,
+				67B7CF1E1C35FA4C0065BC87 /* SettingsViewController.swift */,
 				67BEC0931C35E53300ECC0A7 /* LaunchScreen.storyboard */,
 				67BEC0961C35E53300ECC0A7 /* Info.plist */,
 			);
@@ -138,6 +141,7 @@
 			files = (
 				67BEC08D1C35E53300ECC0A7 /* ViewController.swift in Sources */,
 				67BEC08B1C35E53300ECC0A7 /* AppDelegate.swift in Sources */,
+				67B7CF1F1C35FA4C0065BC87 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

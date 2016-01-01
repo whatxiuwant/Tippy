@@ -10,7 +10,7 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
-    @IBOutlet weak var viewSwitch: UISwitch!
+    @IBOutlet weak var darkSwitch: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,7 +23,8 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func onValueChanged(sender: AnyObject) {
-        self.view.backgroundColor = UIColor.blackColor()
+        // invert colors, black background and white text
+        // self.window.backgroundColor =UIColor.blackColor();
     }
 
     /*
